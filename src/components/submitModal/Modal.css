@@ -1,0 +1,39 @@
+#success{
+    text-align: center;
+    color: #05CC76;
+    font-size: 60px;
+}
+#text{
+    text-align: center;
+    color: rgb(55, 59, 55);
+    font-size:20px;
+}
+#button{
+    text-align: center;
+    color: #ffff;
+    background-color: #FAA81D;
+    font-size:20px;
+    padding: 10px 22px 10px 22px;
+    border: none;
+    font-size: 14px;
+}
+#btn{
+    text-align: center;
+    font-size:20px;
+}
+/* 
+#modal{
+    border-radius: 10px;
+} */
+.modal__main{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 200px;
+    border-radius: 10px;
+    /* margin-bottom: auto; */
+}
+
+/* #container{
+    padding: 0px 50px 0px 50px;
+} */

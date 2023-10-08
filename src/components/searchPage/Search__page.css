@@ -1,0 +1,21 @@
+.ques{
+    font-weight: 500;
+    padding-left: 30px;
+    color: #707070;
+
+}
+
+.ans{
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: justify;
+    display: flex;
+    font-size: 14px;
+    color: #707070;
+
+}
+
+.box{
+    padding-top: 10px;
+    padding-bottom: -5px;
+}
