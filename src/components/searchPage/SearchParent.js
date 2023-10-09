@@ -22,7 +22,7 @@ function SearchParent({ storeData }) {
       try {
         const response = await axios.post(
           "http://WINDOWS-IKRB92T:2000/search/search-data",
-          // 192.168.43.67
+          // localhost
           // WINDOWS-IKRB92T
           storeData
         );

@@ -24,7 +24,7 @@ function Register(props) {
   const sendDetails = async () => {
     try {
       const response = await axios.post(
-        "http://192.168.43.67:2000/users/register",
+        "http://localhost:4000/users/register",
         registerUser
       );
       console.log(response.data);

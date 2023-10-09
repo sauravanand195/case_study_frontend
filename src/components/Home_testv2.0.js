@@ -74,7 +74,7 @@ function Home() {
     // console.log(data);
     try {
       const response = await axios.post(
-        "http://192.168.43.67:2000/qna/add-questions-answers",
+        "http://localhost:4000/qna/add-questions-answers",
         serverData
         // { headers: { "Content-Type": "application/json" } }
       );

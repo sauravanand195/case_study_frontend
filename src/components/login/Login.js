@@ -21,9 +21,10 @@ function Login(props) {
   };
 
   const updateLogin = async () => {
+    console.log('Hiii', userlogin);
     try {
       const response = await axios.post(
-        "http://192.168.43.67:2000/users/login",
+        "http://localhost:4000/users/login",
         userlogin
       );
       console.log(response);
