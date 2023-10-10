@@ -40,13 +40,13 @@ function Register(props) {
   };
 
   return (
-    <div class="container-fluid bg" style={{ marginTop: "-49px" }}>
-      <div class="row">
-        <div class="col-lg-4 col-md-2 col-sm-12"></div>
-        <div class="col-lg-4 col-md-8 col-sm-12">
-          <form class="form-container">
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
+    <div className="container-fluid bg" style={{ marginTop: "-49px" }}>
+      <div className="row">
+        <div className="col-lg-4 col-md-2 col-sm-12"></div>
+        <div className="col-lg-4 col-md-8 col-sm-12">
+          <form className="form-container">
+            <div className="mb-3">
+              <label htmlFor="exampleInputEmail1" className="form-label">
                 First Name
               </label>
               <input
@@ -54,14 +54,14 @@ function Register(props) {
                 name="firstName"
                 value={registerUser.firstName}
                 onChange={userDetails}
-                class="form-control"
+                className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
             </div>
 
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="exampleInputEmail1" className="form-label">
                 Last Name
               </label>
               <input
@@ -69,14 +69,14 @@ function Register(props) {
                 name="lastName"
                 value={registerUser.lastName}
                 onChange={userDetails}
-                class="form-control"
+                className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
             </div>
 
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="exampleInputEmail1" className="form-label">
                 Email
               </label>
               <input
@@ -84,13 +84,13 @@ function Register(props) {
                 name="email"
                 value={registerUser.email}
                 onChange={userDetails}
-                class="form-control"
+                className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="exampleInputPassword1" className="form-label">
                 Password
               </label>
               <input
@@ -98,7 +98,7 @@ function Register(props) {
                 name="password"
                 value={registerUser.password}
                 onChange={userDetails}
-                class="form-control"
+                className="form-control"
                 id="exampleInputPassword1"
               />
             </div>
@@ -106,7 +106,7 @@ function Register(props) {
             <button
               type="button"
               onClick={sendDetails}
-              class="btn btn-primary btn-block"
+              className="btn btn-primary btn-block"
               style={{ width: "100%" }}
             >
               Register
@@ -120,7 +120,7 @@ function Register(props) {
             </div>
           </form>
         </div>
-        <div class="col-lg-4 col-md-2 col-sm-12"></div>
+        <div className="col-lg-4 col-md-2 col-sm-12"></div>
       </div>
     </div>
   );

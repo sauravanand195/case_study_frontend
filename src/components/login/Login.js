@@ -42,13 +42,13 @@ function Login(props) {
   };
 
   return (
-    <div class="container-fluid bg">
-      <div class="row">
-        <div class="col-lg-4 col-md-2 col-sm-12"></div>
-        <div class="col-lg-4 col-md-8 col-sm-12">
-          <form class="form-container">
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
+    <div className="container-fluid bg">
+      <div className="row">
+        <div className="col-lg-4 col-md-2 col-sm-12"></div>
+        <div className="col-lg-4 col-md-8 col-sm-12">
+          <form className="form-container">
+            <div className="mb-3">
+              <label htmlFor="exampleInputEmail1" className="form-label">
                 Email
               </label>
               <input
@@ -56,13 +56,13 @@ function Login(props) {
                 name="email"
                 value={userlogin.email}
                 onChange={loginDetails}
-                class="form-control"
+                className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="exampleInputPassword1" className="form-label">
                 Password
               </label>
               <input
@@ -70,24 +70,24 @@ function Login(props) {
                 name="password"
                 value={userlogin.password}
                 onChange={loginDetails}
-                class="form-control"
+                className="form-control"
                 id="exampleInputPassword1"
               />
             </div>
-            <div class="mb-3 form-check">
+            <div className="mb-3 form-check">
               <input
                 type="checkbox"
-                class="form-check-input"
+                className="form-check-input"
                 id="exampleCheck1"
               />
-              <label class="form-check-label" for="exampleCheck1">
+              <label className="form-check-label" htmlFor="exampleCheck1">
                 Remember Me
               </label>
             </div>
             <button
               type="button"
               onClick={updateLogin}
-              class="btn btn-primary"
+              className="btn btn-primary"
               style={{ width: "100%" }}
             >
               Login
@@ -101,7 +101,7 @@ function Login(props) {
             </div>
           </form>
         </div>
-        <div class="col-lg-4 col-md-2 col-sm-12"></div>
+        <div className="col-lg-4 col-md-2 col-sm-12"></div>
       </div>
     </div>
   );
